@@ -1,0 +1,385 @@
+/*
+<div class="skillBar">
+	<div id="skillBar_100" class="barBrown">
+		<span class="skillArea">  </span>
+		<span class="percentText">100%</span>
+	</div>
+</div>
+*/
+
+.barBrown {
+	background-color: #e67e22;
+}
+.barBrown .skillArea{
+	background-color: #d35400;
+}
+
+.barBlue {
+	background-color: #3498db;
+}
+
+.barBlue .skillArea {
+	background-color: #2980b9;
+}
+
+.barViolet {
+	background-color: #5a68a5;
+}
+
+.barViolet .skillArea {
+	background-color: #46465e;
+}
+
+.barGrey {
+	background-color: #525252;
+}
+
+.barGrey .skillArea{
+	background-color: #333333;
+}
+
+.barGreen {
+	background-color: #2ecc71;
+}
+
+.barGreen .skillArea{
+	background-color: #27ae60;
+}
+
+.barDarkBlue {
+	background-color: #4288d0;
+}
+
+.barDarkBlue .skillArea{
+	background-color: #124e8c;
+}
+
+.barRed {
+	background-color: #ff0000;
+}
+
+.barRed .skillArea {
+	background-color: #e50000;
+}
+
+.barPink {
+	background-color: #ff69b4
+}
+
+.barPink .skillArea{
+	background-color: #e55ea2;
+}
+
+.barOrange {
+	background-color: #ffa500;
+}
+
+.barOrange .skillArea {
+	background-color: #e59400;
+}
+
+.skillBar {
+  
+    height: 50px;
+    position: relative;
+    background: rgba(17, 17, 17, .3);
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+
+.skillArea {
+    z-index: 5;
+    float: left;
+    text-shadow: none;
+    color: #ffffff;
+    font-size: 20px;
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+    padding-top: 13px;
+    height: 50px;
+    
+    
+    width: 200px;
+    
+    
+    
+    border-radius: 10px 0px 0px 10px;
+
+
+    position: absolute;
+    white-space: nowrap;
+  	overflow: hidden;
+}
+
+.percentText {
+    z-index: 2;
+    position: relative;
+    padding-right: 15px;
+    margin-top: 13px;
+    float: right;
+    text-shadow: none;
+    color: #fff;
+    font-size: 18px;
+}
+.skillBar_50 {
+    animation: animate_50 5s;
+    -webkit-animation: animate_50 5s;
+    -moz-animation: animate_50 5s;
+    -o-animation: animate_50 5s;
+    width: 50%;
+    height: 50px;
+    position: absolute;
+
+    border-radius: 10px;
+}
+@keyframes animate_50 {
+    from {
+        width: 5%;
+    }
+    to {
+        width: 50%
+    }
+}
+@-webkit-keyframes animate_50 {
+    from {
+        width: 5%;
+    }
+    to {
+        width: 50%
+    }
+}
+@-moz-keyframes animate_50 {
+    from {
+        width: 5%;
+    }
+    to {
+        width: 50%
+    }
+}
+@-o-keyframes animate_50 {
+    from {
+        width: 5%;
+    }
+    to {
+        width: 50%
+    }
+}
+.skillBar_60 {
+    animation: animate_60 5s;
+    -webkit-animation: animate_60 5s;
+    -moz-animation: animate_60 5s;
+    -o-animation: animate_60 5s;
+    width: 60%;
+    height: 50px;
+    position: absolute;
+    
+
+    border-radius: 10px;
+}
+@keyframes animate_60 {
+    from {
+        width: 5%;
+    }
+    to {
+        width: 60%
+    }
+}
+@-webkit-keyframes animate_60 {
+    from {
+        width: 5%;
+    }
+    to {
+        width: 60%
+    }
+}
+@-moz-keyframes animate_60 {
+    from {
+        width: 5%;
+    }
+    to {
+        width: 60%
+    }
+}
+@-o-keyframes animate_60 {
+    from {
+        width: 5%;
+    }
+    to {
+        width: 60%
+    }
+}
+.skillBar_70 {
+    animation: animate_70 5s;
+    -webkit-animation: animate_70 5s;
+    -moz-animation: animate_70 5s;
+    -o-animation: animate_70 5s;
+    width: 70%;
+    height: 50px;
+    position: absolute;
+    
+    border-radius: 10px;
+}
+@keyframes animate_70 {
+    from {
+        width: 5%;
+    }
+    to {
+        width: 70%
+    }
+}
+@-webkit-keyframes animate_70 {
+    from {
+        width: 5%;
+    }
+    to {
+        width: 70%
+    }
+}
+@-moz-keyframes animate_70 {
+    from {
+        width: 5%;
+    }
+    to {
+        width: 70%
+    }
+}
+@-o-keyframes animate_70 {
+    from {
+        width: 5%;
+    }
+    to {
+        width: 70%
+    }
+}
+.skillBar_80 {
+    animation: animate_80 5s;
+    -webkit-animation: animate_80 5s;
+    -moz-animation: animate_80 5s;
+    -o-animation: animate_80 5s;
+    width: 80%;
+    height: 50px;
+    position: absolute;
+    
+    border-radius: 10px;
+}
+@keyframes animate_80 {
+    from {
+        width: 5%;
+    }
+    to {
+        width: 80%
+    }
+}
+@-webkit-keyframes animate_80 {
+    from {
+        width: 5%;
+    }
+    to {
+        width: 80%
+    }
+}
+@-moz-keyframes animate_80 {
+    from {
+        width: 5%;
+    }
+    to {
+        width: 80%
+    }
+}
+@-o-keyframes animate_80 {
+    from {
+        width: 5%;
+    }
+    to {
+        width: 80%
+    }
+}
+.skillBar_90 {
+    animation: animate_90 5s;
+    -webkit-animation: animate_90 5s;
+    -moz-animation: animate_90 5s;
+    -o-animation: animate_90 5s;
+    width: 90%;
+    height: 50px;
+    position: absolute;
+    
+    border-radius: 10px;
+}
+@keyframes animate_90 {
+    from {
+        width: 5%;
+    }
+    to {
+        width: 90%
+    }
+}
+@-webkit-keyframes animate_90 {
+    from {
+        width: 5%;
+    }
+    to {
+        width: 90%
+    }
+}
+@-moz-keyframes animate_90 {
+    from {
+        width: 5%;
+    }
+    to {
+        width: 90%
+    }
+}
+@-o-keyframes animate_90 {
+    from {
+        width: 5%;
+    }
+    to {
+        width: 90%
+    }
+}
+.skillBar_100 {
+    animation: animate_100 5s;
+    -webkit-animation: animate_100 5s;
+    -moz-animation: animate_100 5s;
+    -o-animation: animate_100 5s;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    
+    border-radius: 10px;
+}
+@keyframes animate_100 {
+    from {
+        width: 5%;
+    }
+    to {
+        width: 100%
+    }
+}
+@-webkit-keyframes animate_100 {
+    from {
+        width: 5%;
+    }
+    to {
+        width: 100%
+    }
+}
+@-moz-keyframes animate_100 {
+    from {
+        width: 5%;
+    }
+    to {
+        width: 100%
+    }
+}
+@-o-keyframes animate_100 {
+    from {
+        width: 5%;
+    }
+    to {
+        width: 100%
+    }
+}
